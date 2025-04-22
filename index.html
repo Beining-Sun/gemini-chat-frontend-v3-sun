@@ -672,11 +672,13 @@ document.getElementById("avatar-button").addEventListener("click", () => {
 });
 
 document.getElementById("kpi-btn").addEventListener("click", () => {
+  console.log("KPI button clicked!");
   const url = `https://beining-sun.github.io/gemini-chat-frontend-v3-lin/?industry=${industry}&region=${region}&audience=${audience}`;
   window.location.href = url;
 });
 
 document.getElementById("idea-btn").addEventListener("click", () => {
+  console.log("Idea button clicked!");
   const url = `https://beining-sun.github.io/gemini-chat-frontend-v3-zhao`;
   window.location.href = url;
 });
